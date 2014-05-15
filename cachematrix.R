@@ -19,8 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 ## The funciton takes a matrix and returns the inverse from cache if available, if not, it computes the inverse and
-## stores it.  The function argument an "special maxtrix" (an instance of makeCacheMatrix).  Note that since the inversion
-# performed with solve, the matrix must be square.
+## stores it.  The function argument an "special maxtrix" (an instance of makeCacheMatrix).  
 
 
 cacheSolve <- function(x, ...) {
