@@ -1,7 +1,7 @@
 ## This program demonstrates a the caching of the inverse of a given matrix so that it will only be computed once.
 
-## This function returns a list of functions.  The list contains functions to get and set a matrix and get
-## and set the inverse of the matrix
+## This function returns a "special matrix" - essentially a list of functions.  
+## The list contains functions to get and set a matrix and get and set the inverse of the matrix
 
 
 makeCacheMatrix <- function(x = matrix()) {
